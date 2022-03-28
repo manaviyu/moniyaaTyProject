@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Electric Service Provider</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- css link -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=El+Messiri">
+
+ <style type="text/css">
+   html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+
+
+figure {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+figure:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+figure:hover img {
+  transform: scale(1.25);
+}
+figure:hover figcaption {
+  bottom: 0;
+}
+figure h2 {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 1;
+}
+figure img {
+  height: 100%;
+  width: 100%;
+  transition: 0.25s;
+}
+figure figcaption {
+  position: absolute;
+  bottom: -33%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.85);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  color: white;
+  line-height: 1;
+  transition: 0.25s;
+}
+figure figcaption h3 {
+  margin: 0 0 20px;
+  padding: 0;
+}
+figure figcaption p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+figure figcaption button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 0;
+  padding: 10px 30px;
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+#home_service_btn{
+  height: 40px;
+  width: 120px;
+  background-color: cadetblue;
+  border:2px solid cadetblue ;
+  color: white;
+}
+#home_service_btn:hover{
+  background-color:white;
+  color: grey;
+
+} 
+</style>
+
+
+</head>
+<body>
+<!-- logo -->	
+<nav class="navbar navbar-light bg-light">
+  
+
+  <div class="container">
+  <div class="box_head">
+    <div><center>
+    <img src="logo1.png" alt="LOGO" width="100px" height="80px">
+  </center></div>
+  </div>
+  <div class="box_head" id="call">
+    <div><center>
+      <h4>Call Now</h4>
+     <i class="fas fa-phone-square-alt"></i>
+     <a href="#">+91 9428245645</a> <br>
+       </center> </div>
+  </div>
+  <div class="box_head">
+   <div> <center>
+     <button class="head_btn">Contact Now</button>
+    </center></div>
+
+  </div>
+</div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+
+  <div class="container-fluid">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="packages.html">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s.html">Feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cu.html">Contact Us</a>
+        </li>
+        
+        
+          
+        </li>
+        
+      </ul>
+      <form class="d-flex">
+        
+        <button class="btn btn-outline-success" type="submit"><a id="id01" href="signupForm.html">SignUp</a></button>
+        &nbsp
+        <button class="btn btn-outline-success" type="submit"><a id="id01" href="login.html">LogIn</a></button>
+          &nbsp
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Image slider -->
+<head>
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="slider_img2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption  d-md-block">
+        <b><h2 id="slider_txt">We provide best</br> services for you</h2></b>
+         <a href="book_ap.html"><button id="slider_btn">Book Appointment</button></a>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="slider_img4.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption  d-md-block">
+        <b><h2 id="slider_txt">Fast and Reliable</br>Electrical services</h2></b>
+          <a href="book_ap.html"><button id="slider_btn">Book Appointment</button></a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="slider_img1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption  d-md-block">
+        <b><h2 id="slider_txt">Nothing is</br>Impossible for us</h2></b>
+         <a href="book_ap.html"> <button id="slider_btn">Book Appointment</button></a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</head>
+<!-- About us -->
+<section class="main_heading my-5">
+	<div class="text-center">
+		<h1 class="display-4">Welcome to our Site</h1>
+		<hr class="w-25 mx-auto" />		
+	</div>	
+</section>
+</div>
+<div class="container">
+  <div class="box" style="box-shadow: 10px 10px 15px black;">
+    <p></br>
+     Are you searching for “electricians near me” in Ahmedabad? Electrical issues can be frustrating. Trying to find the best electricians in Ahmedabad can be equally complex.  our goal is to make your life easier by providing professional, licensed electrical services, backed by a customer satisfaction guarantee.
+   Electrical repair and installation are, not only, complex, but they can also be downright dangerous if you don’t know what you are doing. When you hire us, you don’t have to worry. Regardless of if you need residential or commercial electrical services, we have you covered. We can provide the services you need, safely, quickly and affordably – it doesn’t get much better than that.</p>
+  </div>
+  <div class="box" style="box-shadow: 10px 10px 15px cadetblue;"><center><img src="residential Services.jpg"><h4>Residential services</h4></center>
+      <p >
+     Many of the homes in this country contain outdated wiring systems, while our use of technology and sophisticated electronic devices has increased dramatically. Whether you are experiencing a dead outlet, flickering lights, or a breaker that pops every time you use your hair dryer, a certified Teague Electrician will be able to find the root cause of the problem and provide service needed to resolve the issue.
+
+Contact Teague Electric today to schedule an electrical service appointment with one of our expert electricians by calling (913) 529-4600. </p>
+  </div>
+  <div class="box" style="box-shadow: 10px 10px 15px cadetblue;"><center><img src="commercial Services.jpg"><h4>Commercial services</h4></center>
+      <p >
+     you can’t trust just anyone with your electrical wiring needs. As a business or property owner, you rely on reliable, quality service and there’s no room for mistakes. With our help, you can feel confident we will install all wires and other electrical components properly, the first time.
+
+In addition to providing the initial installation of electrical components, we can also provide help with inspections, electrical repairs and underground installation, making us your one-stop-service for commercial electrical services.</p>
+  </div>
+</div>
+<br/>
+<div class="container">
+  <div class="box" style="box-shadow: 10px 10px 15px black ;" >
+    
+    <p ></br></br></br>
+     <h2>We are providing this types of services ..</h2>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspElectrical Repair</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspSafety Inspection</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspPanel Upgrade</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspLighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspGenerators</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspRemodeling</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspAutomation</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspSecurity</span></br>
+     </p>
+  </div>
+  <div class="box" style="box-shadow: 10px 10px 15px cadetblue;"><center><img src="industrial Services.png"><h4>Industrial services</h4></center>
+      <p >
+     We have extensive experience in working with roadway lighting for both private and state municipalities, traffic signalization, area lighting, and lighting for private development projects.
+
+Our certified equipment operators and ground personnel receive regular, intense training in all areas of equipment operation, work zone safety, as well as strict DOT and OSHA regulations. And since Teague electricians are well versed in local and city requirements required for their field, you can trust that your project will be completed the right way the first time.</p>
+  </div>
+  <div class="box" style="box-shadow: 10px 10px 15px cadetblue;"><center><img src="quick.png"><h4>Quick support</h4></center>
+      <p >
+     We don’t stop there. Are you trying to improve the look of your landscape? We can help you create a landscape lighting design that enhances your yard. With our LED lighting options, you will find your yard not only looks amazing after dark, but that it’s energy efficient and affordable, too. We also offer outdoor entertainment services to help you create the perfect space for hosting friends, family and other guests.</p>
+  </div>
+</div>
+<!-- Dashboard -->
+<br/>
+<br/>
+<div class="container_board">
+  <div class="board_box"><br/>
+   <center><h1 class="dashboard_fig">784</h1></center>
+  <hr class="w-25 mx-auto" />
+  <center><h1 class="dashboard_fig">Install and Upgrade</h1></center>
+
+  </div>
+  <div class="board_box"><br/>
+   <center><h1 class="dashboard_fig">1628</h1></center>
+  <hr class="w-25 mx-auto" />
+  <center><h1 class="dashboard_fig">Happy Customers</h1></center>
+      
+  </div>
+  <div class="board_box"><br/>
+   <center><h1 class="dashboard_fig">2415</h1></center>
+  <hr class="w-25 mx-auto" />
+  <center><h1 class="dashboard_fig">Reviews Done</h1></center>
+      
+  </div>
+  <div class="board_box"><br/>
+   <center><h1 class="dashboard_fig">1983</h1></center>
+  <hr class="w-25 mx-auto" />
+  <center><h1 class="dashboard_fig">Problem Solved</h1></center>
+     
+  </div>
+</div>
+
+<!-- featured services -->
+<section class="main_heading my-5">
+  <div class="text-center">
+    <h1 class="display-4">Our Featured Services</h1>
+    <hr class="w-25 mx-auto" />  
+  </div>  
+</section>
+</div>
+ <div class="container">
+  <div class="box_service"><figure class="image-block">
+ <h2 style="font-size: 33px;">Indoor Lighting</h2>
+  <img src="MCB.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <h5>We provide so many types of Indoor lighting..</h5>
+    <p>
+      <i class="fas fa-arrow-right"></i><span>&nbsp&nbspKitchen Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspWallmount Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspHeat Lamps</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbsp Accent Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspBathroom Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspGeneral Room Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspDome Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspUnder cabinet Lights</span></br>
+    </p>
+     <a href="services.html"><button class="home_service_btn">Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+  <div class="box_service"><figure class="image-block">
+  <b><h2 style="font-size: 35px;">Electrical Repair Service</h2></b>
+  <img src="fan.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>It can be very frustrating to experience electrical issues in your home and not know what is causing the problem.Because wires are buried behind walls, it can be difficult to know where to begin.However, you can trust the experts at Teague Electric to help you diagnose and solve all your electrical service issues.</p>
+    <a href="services.html"><button class="home_service_btn ">Book Appointment</button></a>
+  </figcaption>
+</figure>
+<center> <a href="services.html"><button class="head_btn">Show more</button></a></center>
+  </div>
+  <div class="box_service"><figure class="image-block">
+ <h2 style="font-size: 33px;">Outdoor Lighting</h2>
+  <img src="bulb.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <h5>We provide so many types of Outdoor lighting..</h5></br>
+    <p>
+      <i class="fas fa-arrow-right"></i><span>&nbsp&nbspOutdoor Security lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspLandscape Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspPorch&patio Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspLuxury Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspTerrace Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspGarden Lighting</span></br>
+    </p>
+    <a href="services.html"><button class="home_service_btn">Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+</div>
+<br/>
+<!-- project slider -->
+<section class="main_heading my-5">
+  <div class="text-center">
+    <h1 class="display-4">Our Latest Projects</h1>
+    <hr class="w-25 mx-auto" />   
+  </div> 
+</section>
+  <div class="row">
+  <div class="column">
+    <img src="slider_img1.jpg" alt="" width="300px" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="slider_img2.jpg" alt="" width="300px" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="slider_img1.jpg" alt=""  width="300px"onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="slider_img2.jpg" alt=""  width="300px"onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container_img">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+<!--faq section -->
+<center><section class="main_heading my-5">
+  <div class="text-center">
+    <h1 class="display-4">Frequently asked questions</h1>
+    <hr class="w-25 mx-auto" />
+    
+  </div>
+  
+</section>
+  <center>
+<button class="accordion">Which Type of Services you are providing?</button>
+<div class="panel">
+  <p>We provide services like Residentail , Commercial and Industrial..</br>we also provide many more services you can see this in our services section.</p>
+</div>
+
+<button class="accordion">Did you offer any Discounts or packages ?</button>
+<div class="panel">
+  <p>Yes. Ofcourse we offer various types of discounts . </br>Also we have different types of packages like monthly or yearly. you can select and use it according to your need.</p>
+</div>
+
+<button class="accordion">Do you have ask about customer preference before schedule appointment?</button>
+<div class="panel">
+  <p>Yes.we always ask about customers prefernce about date,time,contact method etc.</p>
+</div>
+ </center>
+ <!-- reviews carousel --> 
+
+
+<!-- footer -->
+<footer>
+<div class="container">
+  <div class="box_footer">
+    <div><center><img src="logo1.png" height="100px" width="100px"></img>
+            <h3>Address</h3>
+            <p>86/harekrishna nagar society<br>
+                behind shivkedar flats, <br>
+                chandlodia ,Ahmedabad-382481.</p>
+           </center>
+        </div>
+  </div>
+  <div class="box_footer">
+      <div ><center>
+            <h3>Quick Links</h3><br>
+            <a href="aboutus.html">About us</a> <br>
+            <a href="services.html">Services</a> <br>
+            <a href="packages.html">packages</a> <br> 
+            <a href="feedback.html">feedback</a> <br> 
+            <a href="contact.html">contact us</a> <br> 
+          </center>
+        </div>
+        
+
+       
+  </div>
+  <div class="box_footer">
+     <div ><center>
+            <h3>Contact us</h3><br>
+            <a href="#">rkelectricals@gmail.com</a><br>
+            <a href="#">+91 9428245645</a> <br><br>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+
+          </center>
+        </div>
+  </div>
+</div>
+</footer>
+
+<!--  Separate Popper and Bootstrap JS -->
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script>
+function myFunction(imgs) {
+  // Get the expanded image
+  var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+  var imgText = document.getElementById("imgtext");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+  expandImg.parentElement.style.display = "block";
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body>
+</html>

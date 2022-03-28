@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Electric Service Provider</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- css link -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=El+Messiri">
+ <style type="text/css">
+   html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+
+
+figure {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+figure:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+figure:hover img {
+  transform: scale(1.25);
+}
+figure:hover figcaption {
+  bottom: 0;
+}
+figure h2 {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 1;
+}
+figure img {
+  height: 100%;
+  width: 100%;
+  transition: 0.25s;
+}
+figure figcaption {
+  position: absolute;
+  bottom: -33%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.85);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  color: white;
+  line-height: 1;
+  transition: 0.25s;
+}
+figure figcaption h3 {
+  margin: 0 0 20px;
+  padding: 0;
+}
+figure figcaption p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+figure figcaption button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 0;
+  padding: 10px 30px;
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+ </style>
+</head>
+<body>
+<!-- logo -->	
+<nav class="navbar navbar-light bg-light">
+  
+
+  <div class="container">
+  <div class="box_head">
+    <div><center>
+    <img src="logo1.png" alt="LOGO" width="100px" height="80px">
+  </center></div>
+  </div>
+  <div class="box_head" id="call">
+    <div><center>
+      <h4>Call Now</h4>
+     <i class="fas fa-phone-square-alt"></i>
+     <a href="#">+91 9428245645</a> <br>
+       </center> </div>
+  </div>
+  <div class="box_head">
+   <div> <center>
+     <a href="book_ap.html"><button class="head_btn">Contact Now</button></a>
+    </center></div>
+  </div>
+</div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+
+  <div class="container-fluid">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="services.html">Services</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="packages.html">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="feedback.html">Feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cu.html">Contact Us</a>
+        </li>
+        
+        
+          
+        </li>
+        
+      </ul>
+      <form class="d-flex">
+         <button class="btn btn-outline-success" type="submit"><a id="id01" href="signupForm.html">SignUp</a></button>
+        &nbsp
+        <button class="btn btn-outline-success" type="submit"><a id="id01" href="login.html">LogIn</a></button>
+          &nbsp
+      </form>
+    </div>
+  </div>
+</nav>
+
+<section class="main_heading my-5">
+  <div class="text-center">
+    <h1 class="display-4">Residential Services</h1>
+    <hr class="w-25 mx-auto" />    
+  </div>
+  </div>
+  </section>
+<div class="container">
+  <div class="box_service"><figure class="image-block">
+  <b><h2 style="font-size: 35px;">Electrical Repair Service</h2></b>
+  <img src="MCB.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>It can be very frustrating to experience electrical issues in your home and not know what is causing the problem.Because wires are buried behind walls, it can be difficult to know where to begin.However, you can trust the experts at Teague Electric to help you diagnose and solve all your electrical service issues.</p>
+    <a href="book_ap.html"><button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+
+  <div class="box_service"><figure class="image-block">
+  <h2 style="font-size: 33px;">New Home Construction</h2>
+  <img src="fan.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>Before putting up the sheetrock in your new home, all of the electrical components – including the hookups and wires – necessary for power, will be installed. This process is when we install all the proper components to ensure you can power the items you use in your new home.Once the sheetrock is installed, our team will return to the property and install the needed switches, outlet plates and caps. We ensure all electrical components are working properly and safely before our work is done.</p>
+   <a href="book_ap.html"> <button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+
+  <div class="box_service"><figure class="image-block">
+ <h2 style="font-size: 33px;">Indoor Lighting</h2>
+  <img src="bulb.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <h5>We provide so many types of Indoor lighting..</h5>
+    <p>
+      <i class="fas fa-arrow-right"></i><span>&nbsp&nbspKitchen Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspWallmount Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspHeat Lamps</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbsp Accent Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspBathroom Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspGeneral Room Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspDome Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspUnder cabinet Lights</span></br>
+    </p>
+    <a href="book_ap.html"><button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+</div>
+<br/><br/>
+
+<div class="container">
+  <div class="box_service"><figure class="image-block">
+  <h2 style="font-size: 33px;">Panel Upgrades</h2>
+  <img src="panel.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>Older homes have a beauty and charm to them that draws in many homeowners. They also typically experience many electrical issues due to the advances made in technology that put extra strain on older equipment, combined with years of wear and tear.Issues typically present themselves in a variety of ways, including regular popping of breakers, electrical outlets that only work occasionally, and breaker panels that are a discombobulated mess.</p>
+    <a href="book_ap.html"><button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+
+  <div class="box_service"><figure class="image-block">
+  <h2 style="font-size: 33px;">Home Re-modeling</h2>
+  <img src="slider_img1.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>One of the most common home-remodeling additions people make is the inclusion of a home entertainment system. This could include anything from a whole-house audio system to a full-fledged home theater, complete with all the bells and whistles you have always wanted. Along the way, you can be sure of one thing: your entertainment upgrade will require electrical wiring from professionals who have the skill and finesse that these home-remodeling projects demand. When you partner with Teague Electric, this is exactly what you will receive.<a href="book_ap.html"> <button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+
+  <div class="box_service"><figure class="image-block">
+ <h2 style="font-size: 33px;">Outdoor Lighting</h2>
+  <img src="bg.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <h5>We provide so many types of Outdoor lighting..</h5></br>
+    <p>
+      <i class="fas fa-arrow-right"></i><span>&nbsp&nbspOutdoor Security lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspLandscape Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspPorch&patio Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspLuxury Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspTerrace Lighting</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspGarden Lighting</span></br>
+    </p>
+    <a href="book_ap.html"> <button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+</div>
+<br/>
+
+<section class="main_heading my-5">
+  <div class="text-center">
+    <h1 class="display-4">Commercial Services</h1>
+    <hr class="w-25 mx-auto" />
+    
+  </div>
+  </div>
+  </section>
+<div class="container">
+  <div class="box_service"><figure class="image-block">
+  <h2 style="font-size: 33px;"> Electrical Installation</h2>
+  <img src="wire.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>If you need to retrofit or redesign the layout and style of your commercial lighting, our professional electricians are ready to help implement your vision. We can perform clean installs that are aesthetically appealing and practically arranged. We can also ensure your electrical outlets and circuitry are safe and mutually compatible</p>
+    <a href="book_ap.html"> <button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+
+  <div class="box_service"><figure class="image-block">
+  <h2 style="font-size: 33px;"> Electrical Upgrades</h2>
+  <img src="panel.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>The need for an electrical upgrade becomes crucial as your business expands, technological demands increase, electrical codes change, and the facility ages. Modernizing your electrical system will enhance both the safety and utility of your space.Many older buildings were built to handle 60 to 120 amps and rely on just a few circuits. This was sufficient decades ago when electricity demand was minimal. Today, however, even small workshops require at least 200 amps. We can make sure your lights, electronics, and machinery are supported by updating your wiring and circuit boards to meet contemporary needs.</p>
+    <a href="book_ap.html"> <button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+
+  <div class="box_service"><figure class="image-block">
+ <h2 style="font-size: 33px;"> Electrical Maintenance</h2>
+  <img src="slider_img.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p> Electrical maintenance is essential for the safety and efficiency of any commercial property.  To help prevent fire hazards and power interruptions, cut down on energy expenses, and proactively fix electrical issues before complications arise, our stellar team can perform regular electrical maintenance on:</br>
+      <i class="fas fa-arrow-right"></i><span>&nbsp&nbspPower outlets</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspSurge protectors</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspCircuit Boards</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspGenerators</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspLighting systems</span></br>
+     
+    <a href="book_ap.html"> <button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+</div>
+<br/><br/>
+
+<div class="container">
+  <div class="box_service"><figure class="image-block">
+  <h2 style="font-size: 33px;">Specialty Lighting</h2>
+  <img src="bg3.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>Specialty lighting can also be installed purely for decorative purposes. Our electrical installation experts can set up:</br>
+      <i class="fas fa-arrow-right"></i><span>&nbsp&nbspModern/vintage lighting fixtures</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspDrop ceiling lighting fixtures</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspSuspended LED lighting fixtures</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspExit / emergency lighting fixtures</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspHospital bed lighting fixture</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspRefrigeration lighting fixtures</span></br>
+    </p>
+    <a href="book_ap.html"> <button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+
+  <div class="box_service"><figure class="image-block">
+  <h2 style="font-size: 30px;"> Electrical Security Installations</h2>
+  <img src="slider_img.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>Many commercial buildings rely on security systems to deter and help prevent crime. Even an empty commercial building is vulnerable to theft and property destruction. Don’t panic! We can:</br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspSecure the doors and windows of your facility with an alarm system</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspHard-wire a security system directly into your electrical system</span></br>
+     <i class="fas fa-arrow-right"></i><span>&nbsp&nbspInstall a CCTV video surveillance camera and wire a monitoring station</span></br>
+    </p>
+    <a href="book_ap.html"> <button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+
+  <div class="box_service"><figure class="image-block">
+ <h2 style="font-size: 30px;">Electrical Safety</h2>
+  <img src="slider_img2.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>By maintaining and updating your circuit boards and wiring, we can increase the safety of your electricity. Overburdening your power supply with too much demand can lead to overheating, surges, and power fluctuations. These disturbances can damage your electronics, machinery, and other equipment. In severe circumstances, they can even lead to electrical fires. Let our technicians ensure the integrity of your electric system with regular and consistent inspections!</p>
+    <a href="book_ap.html"> <button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+</div>
+<br/>
+
+<section class="main_heading my-5">
+  <div class="text-center">
+    <h1 class="display-4">Industrial Services</h1>
+    <hr class="w-25 mx-auto" />  
+  </div>
+  </div>
+  </section>
+<div class="container">
+  <div class="box_service"><figure class="image-block">
+  <h2 style="font-size: 33px;">Security Systems</h2>
+  <img src="MCB.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>Industrial security can be much more than turning on your burglar alarm system . With today’s technology, you can arm and disarm your system and even monitor activity in your home remotely, from your phone or tablet. The security experts  can install a new security system or update your existing hardware so that you can take advantage of these new features.</p>
+    <a href="book_ap.html"> <button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+
+  <div class="box_service"><figure class="image-block">
+  <h2 style="font-size: 30px;">Underground construction</h2>
+  <img src="silder_img3.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>We have extensive experience in working with roadway lighting for both private and state municipalities, traffic signalization, area lighting, and lighting for private development projects.Our certified equipment operators and ground personnel receive regular, intense training in all areas of equipment operation, work zone safety, as well as strict DOT and OSHA regulations. And since Teague electricians are well versed in local and city requirements required for their field, you can trust that your project will be completed the right way the first time.</p>
+    <a href="book_ap.html"> <button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+
+  <div class="box_service"><figure class="image-block">
+ <h2 style="font-size: 33px;">Voice and Data Cabling</h2>
+  <img src="wire.jpg" alt="" />
+  <figcaption>
+    <h3>
+      More Info
+    </h3>
+    <p>Most  buildings have one thing in common these days – the need for Internet access and phone communications. we understand that ensuring your building is properly wired to handle access to the Internet, phone and fax is essential to the success of your facility.Our technicians have the expertise that it takes to get the job done right the first time. Our skilled technicians can advise you on the best layout for your data connection points throughout your facility to meet today’s needs while planning for future expansion requirements.</p>
+    <a href="book_ap.html"> <button>Book Appointment</button></a>
+  </figcaption>
+</figure>
+  </div>
+</div>
+<br/><br/>
+
+
+
+
+
+
+<!-- footer -->
+<footer>
+<div class="container">
+  <div class="box_footer">
+    <div><center><img src="logo1.png" height="100px" width="100px"></img>
+            <h3>Address</h3>
+            <p>86/harekrishna nagar society<br>
+                behind shivkedar flats, <br>
+                chandlodia ,Ahmedabad-382481.</p>
+           </center>
+        </div>
+  </div>
+  <div class="box_footer">
+      <div ><center>
+            <h3>Quick Links</h3><br>
+            <a href="aboutus.html">About us</a> <br>
+            <a href="services.html">Services</a> <br>
+            <a href="packages.html">packages</a> <br> 
+            <a href="feedback.html">feedback</a> <br> 
+            <a href="contact.html">contact us</a> <br> 
+          </center>
+        </div>
+        
+
+       
+  </div>
+  <div class="box_footer">
+     <div ><center>
+            <h3>Contact us</h3><br>
+            <a href="#">rkelectricals@gmail.com</a><br>
+            <a href="#">+91 9428245645</a> <br><br>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+
+          </center>
+        </div>
+  </div>
+</div>
+</footer>
+
+<!--  Separate Popper and Bootstrap JS -->
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script>
+function myFunction(imgs) {
+  // Get the expanded image
+  var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+  var imgText = document.getElementById("imgtext");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+  expandImg.parentElement.style.display = "block";
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,325 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box_head{
+	height: 80px;
+	color: black;
+	//border: 2px solid black;
+	position: relative;
+}
+
+
+.head_btn {
+  background-color:darkcyan;
+  border: 2px solid darkcyan;
+  color: white;
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  border-radius: 5px;
+	font-size: 16px;
+}
+.about_btn{
+  background-color:darkcyan;
+  border: 2px solid darkcyan;
+  color: white;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+	font-size: 16px;
+}
+.about_btn:hover{
+	background-color:white;
+	color: grey;
+
+}
+
+.head_btn:hover{
+	background-color:white;
+	color: grey;
+
+}
+#aboutus_img{
+	height: 400px;
+	width: 500px;
+	box-shadow: 15px 15px 5px cadetblue;
+}
+
+ #call{
+ 	border:2px solid black ;
+ 	width: 200px;
+ 	text-align: center;
+ }
+.box{
+	height: 250px;
+	color: black;
+	//border: 2px solid black;
+	position: relative;
+}
+
+.carousel-item img{
+	width: 100%;
+	opacity: 0.7;
+	height: 60vh;
+}
+#slider_txt{
+	position: relative;
+	top: -80px;
+	right: -430px;
+	text-align: left;
+	font-size: 65px;
+	color:black;
+	margin-left: 10px;
+}
+#slider_btn{
+	height: 50px;
+	width: 130px;
+	background-color:black;
+	color: white;
+	position: relative;
+	top: -50px;
+	right: -180px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+<!-- Responsive css code -->
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+ 
+
+.container{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+	grid-gap: 20px;
+}
+.box{
+	height: 450px;
+	color: black;
+	//border: 2px solid black;
+	border-radius: 10px;
+	position: relative;
+	padding: 15px;
+}
+
+.box img{
+	height: 60px;
+	width: 60px;
+}
+
+.container_board{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+	grid-gap: 0px;
+
+}
+.board_box{
+	height: 150px;
+	//width: 100px;
+	color: black;
+	background-color: cadetblue;
+	position: relative;
+}
+.dashboard_fig{
+	text-align: :center;
+	font-size: 25px;
+}
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container_img {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion .active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default*/ 
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion:after {
+  //content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  //content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.box_package{
+	//border: 2px solid black;
+	height: 450px;
+	
+	box-shadow: 15px 15px 5px cadetblue;
+	width: 300px;
+	border-radius: 10px;
+}
+.package{
+	background-color: darkcyan;
+	height: 50px;
+	font-size: 30px;
+	//font-family: verdana;
+	text-align: center;
+	color: white;
+}
+.price{
+	font-size: 22px;file:///D:/PROJECT/slider_img2.jpg
+}
+
+/*-- service -- */
+.box_service img{
+	height: 300px;
+	width: 350px;
+	//box-shadow: 10px 10px 15px yellow;
+}
+
+.box_service h4{
+	font-size: 25px;
+	color: white;
+	background-color: cadetblue;
+	box-shadow: 10px 10px 15px black;
+}
+.app_btn{
+	color: white;
+	background-color: cadetblue;
+	height: 50px;
+	width: 155px;
+	border: 2px solid cadetblue;
+	border-radius: 5px;
+	box-shadow: 10px 10px 15px black;
+}
+.app_btn:hover{
+	color: cadetblue;
+	background-color: white;
+}
+footer {
+	background-color:cadetblue;
+}
+footer a{	
+	text-decoration: none;
+	color: black;
+}
+.box_footer{
+	height: 250px;
+	color: black;
+	//border: 2px solid black;
+	border-radius: 10px;
+	position: relative;
+	padding: 15px;
+}
+#symbol{
+	position: relative;
+	top:-3px;
+	right: -750px;
+}
+.contactform input,textarea{
+	width: 300px;
+}
+.contactform button{
+	height: 40px;
+	width: 80px;
+	background-color: cadetblue;
+	color: white;
+	border: 2px solid cadetblue;
+}
+#subject{
+	width: 350px;
+}
+
+.btn btn-outline-success{
+	color: floralwhite;
+}
+
+#id01{
+	color: floralwhite;
+	text-decoration: none;
+}
+
